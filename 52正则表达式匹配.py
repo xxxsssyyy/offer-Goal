@@ -31,7 +31,8 @@ class Solution:
             return False
         if len(pattern) > 1 and pattern[1] == '*':
             if s[0] == pattern[0] or pattern[0] == '.':
-                return self.match(s[1:],pattern) or self.match(s,pattern[2:])
+                return self.match(s[1:],pattern) or \
+                       self.match(s,pattern[2:])
             else:
                 return self.match(s, pattern[2:])
         if s[0] == pattern[0] or pattern[0] == '.':
@@ -40,6 +41,7 @@ class Solution:
 
 
 if __name__=='__main__':
+
     Solution = Solution()
     print (Solution.match("aaa","a.a"))
     print(Solution.match("aaa", "ab*ac*a"))
