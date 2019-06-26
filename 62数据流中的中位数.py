@@ -13,5 +13,6 @@ O(log2(n))次。因此插入函数的时间复杂度为：O(log2(n))
 class Solution:
     def Insert(self, num):
         #读取数据流
+
     def GetMedian(self):
         #读取数据中的中位数
