@@ -10,5 +10,20 @@
 """
 """
 第一想法思路：二次遍历，时间复杂度0(N^2)
-第二想法：
+网上的思路1：归并排序，时间复杂度O(logn)
+网上的思路2:复制一份数组进行快排，对快排后的数组从头开始每次拿出一个元素看其在原始数组中出现的位置，
+          并进行出栈
 """
+class Solution:
+    def InversePairs(self, data):
+        # write code here
+        sorted_data = sorted(data)
+        count = 0
+        for i in sorted_data:
+            count += data.index(i)
+            data.pop(data.index(i))
+        return count
+if __name__=='__main__':
+    Solution = Solution()
+    a = Solution.InversePairs([2,1,1,3,3,3])
+    print(a)
