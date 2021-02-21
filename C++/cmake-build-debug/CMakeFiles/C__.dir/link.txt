@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/C__.dir/main.cpp.o CMakeFiles/C__.dir/JZ51.cpp.o CMakeFiles/C__.dir/JZ52.cpp.o CMakeFiles/C__.dir/JZ53.cpp.o  -o C__ 

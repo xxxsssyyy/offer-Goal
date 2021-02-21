@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/JZ56.cpp
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+vector
+-
+map
+-
+algorithm
+-
+

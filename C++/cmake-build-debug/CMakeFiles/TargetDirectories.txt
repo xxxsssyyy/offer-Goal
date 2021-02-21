@@ -1,0 +1,3 @@
+/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/cmake-build-debug/CMakeFiles/JZ56.dir
