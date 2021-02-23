@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="JZ56">
-				<Option output="/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/cmake-build-debug/JZ56" prefix_auto="0" extension_auto="0"/>
+			<Target title="JZ66">
+				<Option output="/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/cmake-build-debug/JZ66" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -52,14 +52,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 JZ56"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 JZ66"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="JZ56/fast">
-				<Option output="/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/cmake-build-debug/JZ56" prefix_auto="0" extension_auto="0"/>
+			<Target title="JZ66/fast">
+				<Option output="/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/cmake-build-debug/JZ66" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -73,15 +73,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 JZ56/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 JZ66/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/JZ56.cpp">
-			<Option target="JZ56"/>
+		<Unit filename="/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/JZ66.cpp">
+			<Option target="JZ66"/>
 		</Unit>
 		<Unit filename="/Users/xingsiyuan/PycharmProjects/offer-Goal/C++/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

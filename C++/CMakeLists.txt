@@ -3,4 +3,4 @@ project(C__)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(JZ56 JZ56.cpp)
+add_executable(JZ66 JZ66.cpp)

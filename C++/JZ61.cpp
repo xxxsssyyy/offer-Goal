@@ -83,6 +83,11 @@ public:
 
 int main() {
     string a = "123";
-
+    int k = stoi(a);
+    char *str = new char[a.length()+1];
+    strcpy(str, a.c_str());
+    int m = atoi(str);
+    cout << k << endl;
+    cout << "m: " << m << endl;
     return 0;
 }
