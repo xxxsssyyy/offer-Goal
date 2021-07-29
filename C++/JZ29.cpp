@@ -84,6 +84,45 @@ public:
     }
 };
 
+// 第k大
+class Solution2 {
+public:
+    int GetLeastNumbers_Solution(vector<int>& input, int k) {
+        if (input.empty() || input.size() < k || k <= 0) {
+            return -1;
+        }
+        return search(input, 0, input.size()-1, k);
+    }
+    int search(vector<int>& input, int left, int right, int k) {
+        int index = partition(input, left, right);
+        int N = input.size();
+        if (index == N-k) {
+            return input[index];
+        }
+        else if (index > N-k) {
+            return search(input, left, index-1, k);
+        }
+        else {
+            return search(input, index+1, right, k);
+        }
+    }
+    int partition(vector<int>& input, int left, int right) {
+        int i = left;
+        int j = left;
+        int base = input[i];
+        while (i < j) {
+            while (i < j && input[j] >= base)
+                j--;
+            input[i] = input[j];
+            while (i < j && input[i] <= base)
+                i++;
+            input[j] = input[i];
+        }
+        input[i] = base;
+        return i;
+    }
+}
+
 
 int main() {
     Solution sol;
